@@ -28,3 +28,11 @@ List of varible used in tidy dataset
 [76] "fBodyBodyGyroMag_mean"          "fBodyBodyGyroMag_std"           "fBodyBodyGyroMag_mean_freq"    
 [79] "fBodyBodyGyroJerkMag_mean"      "fBodyBodyGyroJerkMag_std"       "fBodyBodyGyroJerkMag_mean_freq"
 [82] "activity_label"      
+
+id_activity : number taht identity the activity
+
+activity:label : textual description of activity
+
+id_subject : subject's identification number
+
+other vars : name describe variable, observation are dimensionless, are in normalized units
