@@ -21,13 +21,19 @@ From the data set in step 4, creates a second, independent tidy data set with th
 # User Manual
 
 First of all script create folder where store zip data. Then file was downloaded and unzipped.
+
 Set the working dir on data folder and import data in workspace.
+
 Variables name are overwritten using feature variable.
+
 Using grep function I look for variables that contain words "mean" and "std" 
+
 A tabel call data_selected is the result of row binding of both test and train datase using only selected vars.
 
 Gsub function acts on varname in order to properly change vars in more descriptive way.
+
 Tidy Dataset was created using dplyr library group_by and summarise each sole the problem of identifying the mean for each activity.
+
 A txtx file was generated using write.table as suggested
 
 
